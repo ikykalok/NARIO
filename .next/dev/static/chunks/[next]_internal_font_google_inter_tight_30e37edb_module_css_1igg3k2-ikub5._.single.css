@@ -1,0 +1,20 @@
+/* [next]/internal/font/google/inter_tight_30e37edb.module.css [app-client] (css) */
+@font-face {
+  font-family: Inter Tight Fallback;
+  src: local(Arial);
+  ascent-override: 100.51%;
+  descent-override: 25.03%;
+  line-gap-override: 0.0%;
+  size-adjust: 96.39%;
+}
+
+.inter_tight_30e37edb-module__kOjFpW__className {
+  font-family: Inter Tight, Inter Tight Fallback;
+  font-style: normal;
+}
+
+.inter_tight_30e37edb-module__kOjFpW__variable {
+  --font-display: "Inter Tight", "Inter Tight Fallback";
+}
+
+/*# sourceMappingURL=%5Bnext%5D_internal_font_google_inter_tight_30e37edb_module_css_1igg3k2-ikub5._.single.css.map*/

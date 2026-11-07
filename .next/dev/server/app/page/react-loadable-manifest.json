@@ -1,0 +1,10 @@
+{
+  "[project]/components/sip/story/StoryScene.tsx [app-client] (ecmascript, next/dynamic entry)": {
+    "id": "[project]/components/sip/story/StoryScene.tsx [app-client] (ecmascript, next/dynamic entry)",
+    "files": [
+      "static/chunks/_1lav2tsy9-rk1._.js",
+      "static/chunks/node_modules_@react-three_fiber_dist_0-shm7y3fbonm._.js",
+      "static/chunks/node_modules_0ryivr8kc9r8c._.js"
+    ]
+  }
+}

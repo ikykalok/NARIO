@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[next]/internal/font/google/inter_tight_30e37edb.module.css"],"sourcesContent":["@font-face {\n    font-family: 'Inter Tight Fallback';\n    src: local(\"Arial\");\n    ascent-override: 100.51%;\ndescent-override: 25.03%;\nline-gap-override: 0.00%;\nsize-adjust: 96.39%;\n\n}\n.className {\n    font-family: 'Inter Tight', 'Inter Tight Fallback';\n    font-style: normal;\n\n}\n.variable {\n    --font-display: 'Inter Tight', 'Inter Tight Fallback';\n}\n"],"names":[],"mappings":"AAAA;;;;;;;;;AASA;;;;;AAKA","ignoreList":[0]}}]
+}

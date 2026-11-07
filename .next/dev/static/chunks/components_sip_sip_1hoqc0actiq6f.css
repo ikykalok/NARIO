@@ -1,0 +1,116 @@
+/* [project]/components/sip/sip.css [app-client] (css) */
+@keyframes sip-hint {
+  0% {
+    transform: translateY(-100%);
+  }
+
+  100% {
+    transform: translateY(250%);
+  }
+}
+
+.sip-hint-bar {
+  animation: 1.8s infinite sip-hint;
+}
+
+.sip-stamp {
+  aspect-ratio: 1;
+  width: clamp(104px, 12vw, 172px);
+  color: var(--color-ivory);
+  filter: drop-shadow(0 18px 24px #11111124);
+}
+
+.sip-stamp-disc {
+  fill: var(--color-moss);
+}
+
+.sip-stamp[data-tone="kraft"] {
+  color: var(--color-ink);
+}
+
+.sip-stamp[data-tone="kraft"] .sip-stamp-disc {
+  fill: var(--color-kraft);
+}
+
+.sip-stamp[data-tone="ivory"] {
+  color: var(--color-ink);
+}
+
+.sip-stamp[data-tone="ivory"] .sip-stamp-disc {
+  fill: #fff;
+  stroke: var(--color-ink);
+  stroke-width: 1.5px;
+}
+
+.sip-stamp[data-tone="ink"] {
+  color: var(--color-ivory);
+}
+
+.sip-stamp[data-tone="ink"] .sip-stamp-disc {
+  fill: var(--color-ink);
+}
+
+.sip-stamp-ring {
+  font-family: var(--font-mono);
+  letter-spacing: 2.6px;
+  fill: currentColor;
+  opacity: .8;
+  font-size: 10.5px;
+}
+
+@keyframes sip-still-in {
+  from {
+    opacity: 0;
+    transform: translateY(10px) scale(.98);
+  }
+
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.sip-still-in {
+  animation: sip-still-in .9s var(--ease-expo) both;
+}
+
+@keyframes sip-mark-top {
+  0%, 100% {
+    transform: none;
+  }
+
+  50% {
+    transform: translateY(-2.5px) rotate(-4deg);
+  }
+}
+
+@keyframes sip-mark-bottom {
+  0%, 100% {
+    transform: none;
+  }
+
+  50% {
+    transform: translateY(2px);
+  }
+}
+
+.sip-mark-animated .sip-mark-top {
+  transform-origin: 16px 20px;
+  animation: sip-mark-top 1.3s var(--ease-expo) infinite;
+}
+
+.sip-mark-animated .sip-mark-bottom {
+  transform-origin: 16px 22px;
+  animation: sip-mark-bottom 1.3s var(--ease-expo) infinite;
+}
+
+.sip-no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.sip-no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/*# sourceMappingURL=components_sip_sip_1hoqc0actiq6f.css.map*/

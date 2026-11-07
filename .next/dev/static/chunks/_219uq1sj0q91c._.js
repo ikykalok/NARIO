@@ -1,0 +1,5 @@
+(globalThis["TURBOPACK_CHUNK_LISTS"] || (globalThis["TURBOPACK_CHUNK_LISTS"] = [])).push({
+    script: typeof document === "object" ? document.currentScript : undefined,
+    chunks: ["static/chunks/[root-of-the-server]__0xqbhmvxtbc-6._.css","static/chunks/node_modules_next_dist_20wefz_f1k6jn._.js","static/chunks/components_sip_story_StoryScene_tsx_0qirexnkoptvb._.js","static/chunks/_1c9yf1um7m9wz._.js","static/chunks/node_modules_tailwind-merge_dist_bundle-mjs_mjs_0q79z23r57r2s._.js","static/chunks/node_modules_three_build_three_core_18d0oq6so9l-t.js","static/chunks/node_modules_three_build_three_module_03rsyo66totzs.js","static/chunks/node_modules_three_examples_jsm_environments_RoomEnvironment_0-9q52u6lebh7.js","static/chunks/node_modules_gsap_106m_rrryvtrn._.js","static/chunks/node_modules_0n9519bcpckfm._.js","static/chunks/components_sip_sip_1hoqc0actiq6f.css","static/chunks/_1lav2tsy9-rk1._.js","static/chunks/node_modules_@react-three_fiber_dist_0-shm7y3fbonm._.js","static/chunks/node_modules_0ryivr8kc9r8c._.js"],
+    source: "entry"
+});
